@@ -89,3 +89,119 @@
   width: 75vh;
 
 }
+
+
+
+.mix{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 128, 0, 0.549);
+    text-align: center;
+    color: white;
+}
+.mix img{
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    gap: 15px;
+    margin-left: 45%;
+}
+.flex h4{
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    border: 4px solid rgba(128, 128, 128, 0.315);
+    border-radius: 50%;
+    padding-top: 6px;
+}
+.flex h4:nth-child(1){
+    background-color: black;
+
+}
+.col{
+    text-align: center;
+}
+.jerry img{
+    width: 320px;
+    height: 200px;
+}
+.tom{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px;
+    margin-top: -1px;
+    gap: 30px;
+}
+.jerry{
+    width: 320px;
+    height: 460px;
+    background-color: whitesmoke ;
+    padding: 30px;
+    
+}
+.like{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -10px;
+    color: grey;
+}
+.eye{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.jerry h5{
+    margin-top: -1px;
+    font-size: 17px;
+    color: grey;
+}
+.jerry button{
+    border-radius: 7px;
+    background: none;
+    font-size: 17px;
+    border: 3px solid rgba(0, 128, 0, 0.549);
+    width: 130px;
+    height: 40px;
+    color: rgba(0, 128, 0, 0.549);
+}
+.jerry h2:hover{
+    cursor: pointer;
+    color: rgba(0, 128, 0, 0.549);
+}
+.jerry button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.549);
+    color: white;
+    border: none;
+}
+.row{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 128, 0, 0.549);
+    text-align: center;
+}
+.ins{
+    display: flex;
+    align-items: center;
+}
+.ins input{
+    width: 600px;
+    border: none;
+    height: 45px;
+    padding-left: 15px;
+    margin-left: 30%;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: #9999992f;
+}
+.ins i{
+    margin-left: -50px;
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+}
